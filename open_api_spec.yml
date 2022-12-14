@@ -1,0 +1,12 @@
+---
+openapi: 3.1.0
+info:
+  title: Go Links
+  summary: Short redirect entries to URLs
+  description: |
+    The go/links server provides a common place for teams
+    to create short shareable URLs prefixed with go/ which redirect
+    to full urls.  These entries may optionally support
+    arguments.
+  version: 0.1.0
+
