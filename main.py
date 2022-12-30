@@ -23,11 +23,11 @@ async def list_links(start: int, end: int):
         ]
     }
 
-@app.put('api/v1/links{link_id}')
+@app.put('api/v1/links/{link_id}')
 async def upsert_link(link_id: str, go_link: GoLink):
     pass
 
-@app.delete('api/v1/links{link_id}')
+@app.delete('api/v1/links/{link_id}')
 async def remove_link(link_id: str):
     pass
 
